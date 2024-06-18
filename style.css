@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Inter', sans-serif;
+}
+.blue-block {
+  width: 743px;
+  height: 91px;
+  background-color: #4a90e2;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 16px;
+}
+.blue-block .left {
+  display: flex;
+  align-items: center;
+}
+.blue-block .left .circle {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  position: relative;
+}
+.blue-block .left .circle .progress-circle {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  border-radius: 50%;
+}
+.blue-block .left .circle span {
+  font-weight: 400;
+  font-size: 20px;
+}
+.blue-block .left .text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.blue-block .left .text .checklist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 40px;
+  padding: 0px 10px;
+  width: 76px;
+  height: 18px;
+  background: #2364db;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+}
+.blue-block .left .text .title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.33333;
+  color: #fff;
+}
+.blue-block .left .text .subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+}
+.blue-block .right {
+  margin-left: auto;
+}
+.blue-block .right button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+  width: 170px;
+  height: 40px;
+  background: #f4f8ff;
+  color: #4777ed;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #4777ed;
+}
+.blue-block .right button:hover {
+  background-color: #d5d5d5;
+}
